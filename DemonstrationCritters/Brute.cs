@@ -3,7 +3,7 @@ using System;
 using System.Drawing;
 using System.IO;
 
-namespace DemonstrationCritters
+namespace CritterWorld
 {
     public class Brute : ICritterController
     {

@@ -5,7 +5,7 @@ using System.IO;
 
 namespace Critters
 {
-    public class Brute : CritterController
+    public class Brute : ICritterController
     {
 
 
