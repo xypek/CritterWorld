@@ -11,7 +11,7 @@ namespace DemonstrationCritters
         System.Timers.Timer getInfoTimer;
         bool headingForGoal = false;
 
-        public string Name { get; set; }
+        public string Name { get; set; } 
 
         public Send Responder { get; set; }
 
