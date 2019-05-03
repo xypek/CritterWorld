@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9BEABD20-1A39-4913-9765-D057124641E8}</ProjectGuid>
+    <ProjectGuid>{7309A466-D737-43AD-8703-960889C28CF3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DemonstrationCritters</RootNamespace>
-    <AssemblyName>DemonstrationCritters</AssemblyName>
+    <RootNamespace>_100478073</RootNamespace>
+    <AssemblyName>100478073</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\CritterWorld\bin\Debug\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -45,15 +45,9 @@
   <ItemGroup>
     <Compile Include="Brute.cs" />
     <Compile Include="ControllerFactory.cs" />
-    <Compile Include="ChaserSettings.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ChaserSettings.Designer.cs">
-      <DependentUpon>ChaserSettings.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Chaser.cs" />
-    <Compile Include="Wanderer.cs" />
+    <Compile Include="Santa.cs" />
+    <Compile Include="SpeedRunner.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CritterController\CritterController.csproj">
@@ -61,17 +55,5 @@
       <Name>CritterController</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="ChaserSettings.resx">
-      <DependentUpon>ChaserSettings.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
-  </PropertyGroup>
 </Project>

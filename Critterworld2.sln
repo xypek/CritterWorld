@@ -14,12 +14,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAudio.FireAndForget", "NAu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CritterController", "CritterController\CritterController.csproj", "{06DBFCFC-D8CF-474F-9A07-0FD1313BA9EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemonstrationCritters", "DemonstrationCritters\DemonstrationCritters.csproj", "{9BEABD20-1A39-4913-9765-D057124641E8}"
-	ProjectSection(ProjectDependencies) = postProject
-		{06DBFCFC-D8CF-474F-9A07-0FD1313BA9EA} = {06DBFCFC-D8CF-474F-9A07-0FD1313BA9EA}
-	EndProjectSection
-EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Documentation", "Documentation\Documentation.shproj", "{4E7AD907-0AD6-46A9-99F2-690AD28B259E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100478073", "100478073\100478073.csproj", "{7309A466-D737-43AD-8703-960889C28CF3}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -46,10 +43,10 @@ Global
 		{06DBFCFC-D8CF-474F-9A07-0FD1313BA9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06DBFCFC-D8CF-474F-9A07-0FD1313BA9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06DBFCFC-D8CF-474F-9A07-0FD1313BA9EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9BEABD20-1A39-4913-9765-D057124641E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BEABD20-1A39-4913-9765-D057124641E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BEABD20-1A39-4913-9765-D057124641E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BEABD20-1A39-4913-9765-D057124641E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7309A466-D737-43AD-8703-960889C28CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7309A466-D737-43AD-8703-960889C28CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7309A466-D737-43AD-8703-960889C28CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7309A466-D737-43AD-8703-960889C28CF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

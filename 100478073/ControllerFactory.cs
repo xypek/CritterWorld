@@ -5,21 +5,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemonstrationCritters
+namespace Ethan_100478073
 {
     class ControllerFactory : ICritterControllerFactory
     {
-        public string Author => "Dave Voorhis";
+        public string Author => "100478073";
 
         public ICritterController[] GetCritterControllers()
         {
             List<ICritterController> controllers = new List<ICritterController>();
             for (int i = 0; i < 5; i++)
             {
-                //controllers.Add(new Wanderer("Wanderer" + (i + 1)));
-                //controllers.Add(new Chaser("Chaser" + (i + 1)));
-                //controllers.Add(new Brute("Betty Brute"));
-                //controllers.Add(new Brute("Bitty Brute"));
+                controllers.Add(new SpeedRunner("Speedy Sally"));
+                controllers.Add(new Santa("Santa Clause"));
+                controllers.Add(new Brute("Betty Brute"));
             }
             return controllers.ToArray();
         }
